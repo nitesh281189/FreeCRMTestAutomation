@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.crm.qa.base.TestBase;
+import com.crm.qa.util.TestUtil;
 
 public class LoginPage extends TestBase {
 
@@ -35,12 +36,11 @@ public class LoginPage extends TestBase {
 		login.click();
 		return driver.getTitle();
 	}
-	public HomePage login(String un, String pass) {
+	public HomePage login(String un, String pass){
 		login.click();
 		email.sendKeys(un);
 		password.sendKeys(pass);
 		loginbtn.click();
 		return new HomePage();
 	}
-	
 }

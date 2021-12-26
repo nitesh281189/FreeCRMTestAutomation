@@ -18,22 +18,20 @@ public class LoginTest extends TestBase {
 	}
 
 	@BeforeMethod
-
-	public void setup() {
+	public void setup() throws InterruptedException {
 		TestBase.initialization();
 		lp = new LoginPage();
 	}
 
-	@Test(priority=1)
+	@Test(priority = 1)
 	public void loginPageTitleTest() {
 		String title = lp.validateLoginPageTitle();
 		Assert.assertEquals(title, "Cogmento CRM");
 	}
-	
-	@Test(priority=2)
-	public void loginTest()
-	{
-	hp=lp.login(prop.getProperty("username"), prop.getProperty("password"));
+
+	@Test(priority = 2)
+	public void loginTest() {
+		hp = lp.login(prop.getProperty("username"), prop.getProperty("password"));
 	}
 
 	@AfterMethod

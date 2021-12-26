@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="103.452" tests="7" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="D:\FreeCRMTest\FreeCRMTest\Chromedriver\chromedriver_win32\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\FreeCRMTest\FreeCRMTest\target\test-classes;D:\FreeCRMTest\FreeCRMTest\target\classes;C:\Users\Nitesh Agrawal\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Nitesh Agrawal\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Nitesh Agrawal\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Nitesh Agrawal\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Nitesh Agrawal\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Nitesh Agrawal\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Nitesh Agrawal\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Nitesh Agrawal\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Nitesh Agrawal\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\apache\poi\poi\5.1.0\poi-5.1.0.jar;C:\Users\Nitesh Agrawal\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Nitesh Agrawal\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Nitesh Agrawal\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\Nitesh Agrawal\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Nitesh Agrawal\AppData\Local\Temp\surefire5126924953696546231\surefirebooter6740131470528493888.jar C:\Users\Nitesh Agrawal\AppData\Local\Temp\surefire5126924953696546231 2021-12-26T21-53-59_285-jvmRun1 surefire6564250674890817499tmp surefire_06983893523963374575tmp"/>
+    <property name="surefire.test.class.path" value="D:\FreeCRMTest\FreeCRMTest\target\test-classes;D:\FreeCRMTest\FreeCRMTest\target\classes;C:\Users\Nitesh Agrawal\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Nitesh Agrawal\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Nitesh Agrawal\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Nitesh Agrawal\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Nitesh Agrawal\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Nitesh Agrawal\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Nitesh Agrawal\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Nitesh Agrawal\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Nitesh Agrawal\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\apache\poi\poi\5.1.0\poi-5.1.0.jar;C:\Users\Nitesh Agrawal\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Nitesh Agrawal\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Nitesh Agrawal\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\Nitesh Agrawal\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Nitesh Agrawal\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Nitesh Agrawal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_311\jre"/>
+    <property name="basedir" value="D:\FreeCRMTest\FreeCRMTest"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Nitesh Agrawal\AppData\Local\Temp\surefire5126924953696546231\surefirebooter6740131470528493888.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_311\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_311-b11"/>
+    <property name="user.name" value="Nitesh Agrawal"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Nitesh Agrawal\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\NITESH~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_311"/>
+    <property name="user.dir" value="D:\FreeCRMTest\FreeCRMTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Nitesh Agrawal\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Java\jdk1.8.0_311/bin;C:\Program Files\Java\jdk1.8.0_311/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_311\bin;D:\Softwares\apache-maven-3.8.4-bin.tar\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Users\Nitesh Agrawal\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.311-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="2.125">
+    <system-out><![CDATA[Before navigating to: 'https://freecrm.com/'
+Navigated to:'https://freecrm.com/'
+Trying to find Element By : By.xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]
+Found Element By : By.xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (255c7121f6d51309dccd27caab1007b5)] -> xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (255c7121f6d51309dccd27caab1007b5)] -> xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.xpath: //input[@name='password']
+Found Element By : By.xpath: //input[@name='password']
+Trying to find Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Found Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (255c7121f6d51309dccd27caab1007b5)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (255c7121f6d51309dccd27caab1007b5)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find Element By : By.linkText: Contacts
+Found Element By : By.linkText: Contacts
+Trying to find Element By : By.linkText: Contacts
+Found Element By : By.linkText: Contacts
+Trying to find Element By : By.linkText: Contacts
+Found Element By : By.linkText: Contacts
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (255c7121f6d51309dccd27caab1007b5)] -> link text: Contacts]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (255c7121f6d51309dccd27caab1007b5)] -> link text: Contacts]
+Trying to find Element By : By.xpath: //button[contains(text(),'Create')]
+Found Element By : By.xpath: //button[contains(text(),'Create')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (255c7121f6d51309dccd27caab1007b5)] -> xpath: //button[contains(text(),'Create')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (255c7121f6d51309dccd27caab1007b5)] -> xpath: //button[contains(text(),'Create')]]
+Trying to find Element By : By.name: first_name
+Found Element By : By.name: first_name
+Trying to find Element By : By.name: last_name
+Found Element By : By.name: last_name
+Trying to find Element By : By.xpath: //div[@name='company']//input
+Found Element By : By.xpath: //div[@name='company']//input
+Trying to find Element By : By.xpath: //button[contains(text(),'Save')]
+Found Element By : By.xpath: //button[contains(text(),'Save')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (255c7121f6d51309dccd27caab1007b5)] -> xpath: //button[contains(text(),'Save')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (255c7121f6d51309dccd27caab1007b5)] -> xpath: //button[contains(text(),'Save')]]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 19891
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 26, 2021 9:54:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyConatctsPageLabelTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0.07">
+    <system-out><![CDATA[Before navigating to: 'https://freecrm.com/'
+Navigated to:'https://freecrm.com/'
+Trying to find Element By : By.xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]
+Found Element By : By.xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (80409dc8eabf69458592267d3da55f8d)] -> xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (80409dc8eabf69458592267d3da55f8d)] -> xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.xpath: //input[@name='password']
+Found Element By : By.xpath: //input[@name='password']
+Trying to find Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Found Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (80409dc8eabf69458592267d3da55f8d)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (80409dc8eabf69458592267d3da55f8d)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find Element By : By.linkText: Contacts
+Found Element By : By.linkText: Contacts
+Trying to find Element By : By.linkText: Contacts
+Found Element By : By.linkText: Contacts
+Trying to find Element By : By.linkText: Contacts
+Found Element By : By.linkText: Contacts
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (80409dc8eabf69458592267d3da55f8d)] -> link text: Contacts]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (80409dc8eabf69458592267d3da55f8d)] -> link text: Contacts]
+Trying to find Element By : By.xpath: //div[@class='ui header item mb5 light-black']
+Found Element By : By.xpath: //div[@class='ui header item mb5 light-black']
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 26961
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 26, 2021 9:54:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyHomePageTitleTest" classname="com.crm.qa.testcases.HomePageTest" time="0.008">
+    <system-out><![CDATA[Before navigating to: 'https://freecrm.com/'
+Navigated to:'https://freecrm.com/'
+Trying to find Element By : By.xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]
+Found Element By : By.xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (6d9d53a29fcbd8f703a00bcb2b839189)] -> xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (6d9d53a29fcbd8f703a00bcb2b839189)] -> xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.xpath: //input[@name='password']
+Found Element By : By.xpath: //input[@name='password']
+Trying to find Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Found Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (6d9d53a29fcbd8f703a00bcb2b839189)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (6d9d53a29fcbd8f703a00bcb2b839189)] -> xpath: //div[@class='ui fluid large blue submit button']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 37889
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 26, 2021 9:54:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCorrectUserNameTest" classname="com.crm.qa.testcases.HomePageTest" time="1.971">
+    <system-out><![CDATA[Before navigating to: 'https://freecrm.com/'
+Navigated to:'https://freecrm.com/'
+Trying to find Element By : By.xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]
+Found Element By : By.xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7c0448659d5b789a297d7e7b65e7e41b)] -> xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7c0448659d5b789a297d7e7b65e7e41b)] -> xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.xpath: //input[@name='password']
+Found Element By : By.xpath: //input[@name='password']
+Trying to find Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Found Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7c0448659d5b789a297d7e7b65e7e41b)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7c0448659d5b789a297d7e7b65e7e41b)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find Element By : By.xpath: //span[@class='user-display']
+Found Element By : By.xpath: //span[@class='user-display']
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 3138
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 26, 2021 9:54:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyContactsLinkTest" classname="com.crm.qa.testcases.HomePageTest" time="21.141">
+    <failure message="timeout: Timed out receiving message from renderer: 20.000&#10;  (Session info: chrome=96.0.4664.110)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-MJ8LKT1B&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\NITESH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3cb9920f325106e82a468735676ec353&#10;*** Element info: {Using=link text, value=Contacts}" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 20.000
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MJ8LKT1B', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\NITESH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3cb9920f325106e82a468735676ec353
+*** Element info: {Using=link text, value=Contacts}
+	at com.crm.qa.testcases.HomePageTest.verifyContactsLinkTest(HomePageTest.java:51)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://freecrm.com/'
+Navigated to:'https://freecrm.com/'
+Trying to find Element By : By.xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]
+Found Element By : By.xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3cb9920f325106e82a468735676ec353)] -> xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3cb9920f325106e82a468735676ec353)] -> xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.xpath: //input[@name='password']
+Found Element By : By.xpath: //input[@name='password']
+Trying to find Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Found Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3cb9920f325106e82a468735676ec353)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3cb9920f325106e82a468735676ec353)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find Element By : By.linkText: Contacts
+Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MJ8LKT1B', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\NITESH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3cb9920f325106e82a468735676ec353
+*** Element info: {Using=link text, value=Contacts}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 38728
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 26, 2021 9:55:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1640535930.226][SEVERE]: Timed out receiving message from renderer: 20.000
+[1640535930.229][SEVERE]: Timed out receiving message from renderer: 20.000
+]]></system-err>
+  </testcase>
+  <testcase name="loginPageTitleTest" classname="com.crm.qa.testcases.LoginTest" time="1.086">
+    <system-out><![CDATA[Before navigating to: 'https://freecrm.com/'
+Navigated to:'https://freecrm.com/'
+Trying to find Element By : By.xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]
+Found Element By : By.xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (32ef34cba6143040a6efc91064ccd3c7)] -> xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (32ef34cba6143040a6efc91064ccd3c7)] -> xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 5938
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 26, 2021 9:55:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.crm.qa.testcases.LoginTest" time="5.704">
+    <system-out><![CDATA[Before navigating to: 'https://freecrm.com/'
+Navigated to:'https://freecrm.com/'
+Trying to find Element By : By.xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]
+Found Element By : By.xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (25266f4b833523a715e94c52bee6f40d)] -> xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (25266f4b833523a715e94c52bee6f40d)] -> xpath: //a[@class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left"]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.xpath: //input[@name='password']
+Found Element By : By.xpath: //input[@name='password']
+Trying to find Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Found Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (25266f4b833523a715e94c52bee6f40d)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (25266f4b833523a715e94c52bee6f40d)] -> xpath: //div[@class='ui fluid large blue submit button']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 46124
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 26, 2021 9:55:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
